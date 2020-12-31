@@ -1,0 +1,13 @@
+{
+    "verb": [
+        "memasak", "makan", "bakar", "nonton", "chatting-an", "video call", "main"
+    ],
+    "food": ["jagung", "rumput", "batu", "indian street food", "sandal", "biji durian",
+         "karung semen", "mangkok mie ayam", "spanduk pecel lele", "pizza","nasi padang",
+         "soto lamongan","rujak soto", "masakan bobon santoso"],
+    "watch": ["start-up","sinema azab","video Queen Pentol","podcast deddy corbuzier","netflix", "siksa kubur"],
+    "play" : ["gundu","voodoo","perasaan","cyberpunk 2077","lompat tali","gobak Sodor","kembang api"],
+    "place": ["kamar mandi","atap","ruang tamu","sumur","toilet","dapur","selokan"],
+    "ObjectPeople": ["kekeyi","anya geraldine", "chikakiku", "tukang ojek",
+         "tukang sedot wc", "mantan", "gebetan","pak rt"]
+}
