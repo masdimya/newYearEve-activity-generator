@@ -52,8 +52,28 @@ class WhatShouldIDo{
         
     }
 
+    shareToWhatsApp(activity){
+
+        function capitalize_Words(str)
+        {
+        return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+        }
+
+        
+        let message = `Apa Yang Harus Saya Lakukan Di Malam Tahun Baru ini ? ... \n
+        \"${capitalize_Words(activity)}\"
+        Generate By https://masdimya.me/what-should-i-do
+        `;
+        return `whatsapp://send?text=${encodeURIComponent(message)}`;
+    }
+
     get activity(){
-        return this.randomActivity();
+        let activity = this.randomActivity();
+        let whatsAppText = this.shareToWhatsApp(activity);
+        return {
+            'activity':activity ,
+            'shareWhatsApp' : whatsAppText
+        }
     }
 
 }
